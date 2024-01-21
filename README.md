@@ -1,8 +1,6 @@
 # Github Repositories Listing Page
 
-![GitHub Logo](https://cdn-icons-png.flaticon.com/512/25/25231.png)
-
-This project is a simple web application that allows users to search for a GitHub username and view information about the user along with a list of their repositories.
+This project is a simple web application that allows users to explore public GitHub repositories belonging to any GitHub user. Users can search for a specific GitHub username, view detailed information about the user, and explore their repositories. The application provides a clean and responsive interface, making it easy for users to navigate and discover GitHub repositories.
 
 ## Features
 
@@ -14,12 +12,11 @@ This project is a simple web application that allows users to search for a GitHu
 
 ## Preview
 1.	Default User
- 
+ ![Project Preview](./github1.png)
  
 2.	Searching for another profile
-
+![Project Preview](./github2.png)
  
-
 ## How to Use?
 
 1. Clone the repository:
