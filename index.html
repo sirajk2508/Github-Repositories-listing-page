@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Github Repositories listing page</title>
+</head>
+<body>
+    <div class="container">
+        <h1><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-logo" id="github-logo" style="width: 25px;"> Github Repositories</h1>
+        <div class="search-nav-container">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search repositories...">
+                <button id="search-btn"><Strong>Search</Strong></button>
+            </div>
+    
+            <div class="pagination">
+                <label for="perPage">Repositories per page:</label>
+                <select id="perPage">
+                    <option value="10" selected>10</option>
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="error"></div>
+
+
+        <div class="loader" id="loader"></div>
+
+        <div class="user-info-container">
+            <div class="user-info" id="userInfo"></div>
+        </div>
+        
+        <div id="repositoriesList"></div>
+        <div class="pagination" id="pagination"></div>
+    </div>
+
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
