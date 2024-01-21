@@ -12,9 +12,11 @@ This project is a simple web application that allows users to explore public Git
 
 ## Preview
 1.	Default User
+   
  ![Project Preview](./github1.png)
  
 2.	Searching for another profile
+   
 ![Project Preview](./github2.png)
  
 ## How to Use?
@@ -48,6 +50,6 @@ The project is structured with separate JavaScript files for modularity and main
 
 - `showErrorMessage.js`: Module for displaying error messages.
 
--`utils.js`: Module for reusing variables in other files.
+- `utils.js`: Module for reusing variables in other files.
 
 - `style.css`: Stylesheet for the web application.
